@@ -1,0 +1,111 @@
+ement.style {
+}
+.main-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;}
+
+    .search-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #f0f4f9;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+    
+
+    .search-box input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 8px;
+        font-size: 18px;
+    }
+   
+ 
+    input[type="text" i] {
+        padding-block: 1px;
+        padding-inline: 2px;
+    }
+ 
+    input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+    }
+    input {
+        /* font-style: ;
+        font-variant-ligatures: ;
+        font-variant-caps: ;
+        font-variant-numeric: ;
+        font-variant-east-asian: ;
+        font-variant-alternates: ;
+        font-variant-position: ;
+        font-weight: ;
+        font-stretch: ;
+        font-size: ;
+        font-family: ;
+        font-optical-sizing: ;
+        font-kerning: ;
+        font-feature-settings: ;
+        font-variation-settings: ; */
+        text-rendering: auto;
+        color: fieldtext;
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        background-color: field;
+        margin: 0em;
+        padding: 1px 0px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        padding-block: 1px;
+        padding-inline: 2px;
+    }
+
+.bottom-info {
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+.resultContainer {
+    margin: 30px;
+    padding: 30px;
+   
+  }
+  
+  .result {
+ 
+    /* Add any additional styles for the result here */
+  }
+  .search-box img {
+    width: 24px;
+    cursor: pointer;
+}
+button{
+    width: 60px;
+    height: 30px;
+    cursor: pointer; 
+    border-radius: 20%; 
+}

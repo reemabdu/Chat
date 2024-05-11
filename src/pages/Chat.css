@@ -1,0 +1,19 @@
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.result {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}

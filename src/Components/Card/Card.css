@@ -1,0 +1,68 @@
+.card p {
+    color: #040404;
+    font-size: 17px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+user agent stylesheet
+
+.main-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* .greet {
+    margin: 50px 0;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+} */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+.carda {
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.carda:hover {
+    background-color: #dfe4ea
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+    color: #8e8c8c;
+}
+  
+  
